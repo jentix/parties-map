@@ -8,11 +8,27 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
+    
+    let cities = ["Moscow", "Paris", "Amsterdam"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1;
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return cities.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "city-cell", for: indexPath)
+        cell.textLabel?.text = cities[indexPath.row]
+        return cell
     }
 
     override func didReceiveMemoryWarning() {
