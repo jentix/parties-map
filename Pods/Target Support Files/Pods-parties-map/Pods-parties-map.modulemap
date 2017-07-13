@@ -1,0 +1,6 @@
+framework module Pods_parties_map {
+  umbrella header "Pods-parties-map-umbrella.h"
+
+  export *
+  module * { export * }
+}
