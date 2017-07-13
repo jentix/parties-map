@@ -13,6 +13,7 @@
 		9A5049191F12D4A8006D9C75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5049171F12D4A8006D9C75 /* Main.storyboard */; };
 		9A50491B1F12D4A8006D9C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A50491A1F12D4A8006D9C75 /* Assets.xcassets */; };
 		9A50491E1F12D4A8006D9C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A50491C1F12D4A8006D9C75 /* LaunchScreen.storyboard */; };
+		9ABA5F091F17B26A00DA500E /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABA5F081F17B26A00DA500E /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9A50491A1F12D4A8006D9C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A50491D1F12D4A8006D9C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A50491F1F12D4A8006D9C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABA5F081F17B26A00DA500E /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		A23854ACD1CA4C3C95AA1695 /* Pods-parties-map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parties-map.debug.xcconfig"; path = "Pods/Target Support Files/Pods-parties-map/Pods-parties-map.debug.xcconfig"; sourceTree = "<group>"; };
 		DC1C4512B79BF75853EC3CEB /* Pods-parties-map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parties-map.release.xcconfig"; path = "Pods/Target Support Files/Pods-parties-map/Pods-parties-map.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 				9A50491A1F12D4A8006D9C75 /* Assets.xcassets */,
 				9A50491C1F12D4A8006D9C75 /* LaunchScreen.storyboard */,
 				9A50491F1F12D4A8006D9C75 /* Info.plist */,
+				9ABA5F081F17B26A00DA500E /* DataStore.swift */,
 			);
 			path = "parties-map";
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A5049161F12D4A8006D9C75 /* ViewController.swift in Sources */,
+				9ABA5F091F17B26A00DA500E /* DataStore.swift in Sources */,
 				9A5049141F12D4A8006D9C75 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +395,7 @@
 				9A5049241F12D4A8006D9C75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
